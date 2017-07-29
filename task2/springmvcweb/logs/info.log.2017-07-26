@@ -1,0 +1,141 @@
+2017-07-26 10:51:22  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-26 10:51:22  [ main:353 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Jul 26 10:51:22 CST 2017]; root of context hierarchy
+2017-07-26 10:51:22  [ main:514 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-26 10:51:24  [ main:2130 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-26 10:51:25  [ main:3606 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3513 ms
+2017-07-26 10:51:25  [ main:3934 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-26 10:51:25  [ main:3934 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 10:51:25 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 10:51:25  [ main:3950 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-26 10:51:26  [ main:4465 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-26 10:51:27  [ main:5140 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-26 10:51:27  [ main:5140 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-26 10:51:27  [ main:5140 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-26 10:51:27  [ main:5140 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-26 10:51:27  [ main:5414 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 10:51:25 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 10:51:27  [ main:5568 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 10:51:25 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 10:51:27  [ main:5830 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-26 10:51:27  [ main:5846 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-26 10:51:27  [ main:5861 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-26 10:51:28  [ main:6153 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2219 ms
+2017-07-26 10:51:28  [ qtp2076864428-24:6827 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:51:28  [ qtp2076864428-24:6829 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:51:34  [ qtp2076864428-24:12157 ] - [ INFO ]  {dataSource-1} inited
+2017-07-26 10:51:34  [ qtp2076864428-24:12523 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:51:34  [ qtp2076864428-19:12633 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:51:34  [ qtp2076864428-19:12635 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:51:34  [ qtp2076864428-19:12907 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:51:37  [ qtp2076864428-16:15380 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:51:37  [ qtp2076864428-16:15381 ] - [ INFO ]  <c:url value=
+2017-07-26 10:51:37  [ qtp2076864428-16:15623 ] - [ INFO ]  
+2017-07-26 10:51:38  [ qtp2076864428-37:15969 ] - [ WARN ]  No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springMVC'
+2017-07-26 10:55:31  [ qtp2076864428-19:249316 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:55:31  [ qtp2076864428-19:249317 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:55:32  [ qtp2076864428-19:250560 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:55:33  [ qtp2076864428-24:251069 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:55:33  [ qtp2076864428-24:251070 ] - [ INFO ]  <c:url value=
+2017-07-26 10:55:33  [ qtp2076864428-24:251301 ] - [ INFO ]  
+2017-07-26 10:58:34  [ qtp2076864428-41:432486 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:58:34  [ qtp2076864428-41:432487 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:58:34  [ qtp2076864428-41:432716 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:58:35  [ qtp2076864428-39:433095 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:58:35  [ qtp2076864428-39:433096 ] - [ INFO ]  <c:url value=
+2017-07-26 10:58:35  [ qtp2076864428-39:433341 ] - [ INFO ]  
+2017-07-26 10:58:48  [ qtp2076864428-43:446104 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:58:48  [ qtp2076864428-43:446105 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:58:48  [ qtp2076864428-43:446337 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:58:48  [ qtp2076864428-41:446674 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:58:48  [ qtp2076864428-41:446675 ] - [ INFO ]  <c:url value=
+2017-07-26 10:58:48  [ qtp2076864428-41:446899 ] - [ INFO ]  
+2017-07-26 10:59:12  [ qtp2076864428-44:470223 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:59:12  [ qtp2076864428-44:470224 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:59:12  [ qtp2076864428-44:470508 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:59:12  [ qtp2076864428-24:470842 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:59:12  [ qtp2076864428-24:470843 ] - [ INFO ]  <c:url value=
+2017-07-26 10:59:13  [ qtp2076864428-24:471113 ] - [ INFO ]  
+2017-07-26 10:59:59  [ qtp2076864428-40:517097 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:59:59  [ qtp2076864428-40:517098 ] - [ INFO ]  JAVA-1111
+2017-07-26 10:59:59  [ qtp2076864428-40:517359 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 10:59:59  [ qtp2076864428-18:517693 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 10:59:59  [ qtp2076864428-18:517694 ] - [ INFO ]  <c:url value=
+2017-07-26 10:59:59  [ qtp2076864428-18:517945 ] - [ INFO ]  
+2017-07-26 11:13:30  [ qtp2076864428-49:1328037 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:13:30  [ qtp2076864428-49:1328053 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:13:30  [ qtp2076864428-49:1328350 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:15:01  [ qtp2076864428-45:1419755 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:15:01  [ qtp2076864428-45:1419756 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:15:02  [ qtp2076864428-45:1420018 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:16:10  [ qtp2076864428-44:1488450 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:16:10  [ qtp2076864428-44:1488451 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:16:10  [ qtp2076864428-44:1488817 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:16:11  [ qtp2076864428-19:1489251 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:16:11  [ qtp2076864428-19:1489252 ] - [ INFO ]  <c:url value=
+2017-07-26 11:16:11  [ qtp2076864428-19:1489621 ] - [ INFO ]  
+2017-07-26 11:16:32  [ qtp2076864428-45:1510763 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:16:32  [ qtp2076864428-45:1510763 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:16:33  [ qtp2076864428-45:1511371 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:16:33  [ qtp2076864428-56:1511754 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:16:33  [ qtp2076864428-56:1511756 ] - [ INFO ]  <c:url value=
+2017-07-26 11:16:34  [ qtp2076864428-56:1512798 ] - [ INFO ]  
+2017-07-26 11:17:45  [ qtp2076864428-44:1583217 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:17:45  [ qtp2076864428-44:1583218 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:17:45  [ qtp2076864428-44:1583565 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:17:45  [ qtp2076864428-19:1583941 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:17:45  [ qtp2076864428-19:1583942 ] - [ INFO ]  <c:url value=
+2017-07-26 11:17:46  [ qtp2076864428-19:1584278 ] - [ INFO ]  
+2017-07-26 11:18:33  [ qtp2076864428-56:1631663 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:18:33  [ qtp2076864428-56:1631663 ] - [ INFO ]  JAVA-1111
+2017-07-26 11:18:34  [ qtp2076864428-56:1631968 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 11:18:34  [ qtp2076864428-60:1632298 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 11:18:34  [ qtp2076864428-60:1632299 ] - [ INFO ]  <c:url value=
+2017-07-26 11:18:34  [ qtp2076864428-60:1632594 ] - [ INFO ]  
+2017-07-26 12:15:03  [ qtp2076864428-49:5021204 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 12:15:03  [ qtp2076864428-49:5021236 ] - [ INFO ]  <c:url value=
+2017-07-26 12:15:03  [ qtp2076864428-49:5021480 ] - [ INFO ]  
+2017-07-26 12:15:07  [ qtp2076864428-115:5025190 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 12:15:07  [ qtp2076864428-115:5025191 ] - [ INFO ]  JAVA-1111
+2017-07-26 12:15:07  [ qtp2076864428-115:5025403 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 12:15:07  [ qtp2076864428-116:5025505 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 12:15:07  [ qtp2076864428-116:5025507 ] - [ INFO ]  <c:url value=
+2017-07-26 12:15:07  [ qtp2076864428-116:5025721 ] - [ INFO ]  
+2017-07-26 22:16:12  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-26 22:16:14  [ main:1149 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Jul 26 22:16:13 CST 2017]; root of context hierarchy
+2017-07-26 22:16:14  [ main:1595 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-26 22:16:17  [ main:5052 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-26 22:16:20  [ main:8021 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 8010 ms
+2017-07-26 22:16:21  [ main:8381 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-26 22:16:21  [ main:8390 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 22:16:21 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 22:16:21  [ main:8393 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-26 22:16:21  [ main:9091 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-26 22:16:23  [ main:10885 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-26 22:16:23  [ main:10889 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-26 22:16:23  [ main:10893 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert/{}],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-26 22:16:23  [ main:10894 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-26 22:16:24  [ main:11587 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 22:16:21 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 22:16:24  [ main:11794 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Wed Jul 26 22:16:21 CST 2017]; parent: Root WebApplicationContext
+2017-07-26 22:16:24  [ main:12054 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-26 22:16:24  [ main:12065 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-26 22:16:24  [ main:12073 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-26 22:16:25  [ main:12340 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 3958 ms
+2017-07-26 22:16:46  [ qtp2076864428-19:33431 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/detail] in DispatcherServlet with name 'springMVC'
+2017-07-26 22:16:48  [ qtp2076864428-15:36000 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 22:16:48  [ qtp2076864428-15:36001 ] - [ INFO ]  JAVA-1111
+2017-07-26 22:16:55  [ qtp2076864428-15:42658 ] - [ INFO ]  {dataSource-1} inited
+2017-07-26 22:16:55  [ qtp2076864428-15:43081 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-26 22:17:02  [ qtp2076864428-34:49312 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-26 22:17:02  [ qtp2076864428-34:49313 ] - [ INFO ]  <c:url value=
+2017-07-26 22:17:02  [ qtp2076864428-34:49591 ] - [ INFO ]  

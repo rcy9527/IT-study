@@ -1,0 +1,339 @@
+2017-07-25 10:59:01  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 10:59:01  [ main:250 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 10:59:01 CST 2017]; root of context hierarchy
+2017-07-25 10:59:01  [ main:434 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 10:59:03  [ main:1917 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 10:59:03  [ main:2249 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2213 ms
+2017-07-25 10:59:03  [ main:2574 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 10:59:03  [ main:2590 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 10:59:03 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 10:59:03  [ main:2593 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 10:59:04  [ main:3081 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 10:59:05  [ main:4191 ] - [ INFO ]  Mapped "{[/task2/a/student/{detail}]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail()
+2017-07-25 10:59:05  [ main:4195 ] - [ INFO ]  Mapped "{[/task2/a/student/{interst}]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 10:59:05  [ main:4542 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 10:59:03 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 10:59:05  [ main:4727 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 10:59:03 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 10:59:06  [ main:4951 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 10:59:06  [ main:4965 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 10:59:06  [ main:4976 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 10:59:06  [ main:5275 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2700 ms
+2017-07-25 11:00:03  [ qtp34757331-18:62435 ] - [ WARN ]  No mapping found for HTTP request with URI [/a/student/%7Bdetail%7D] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:00:04  [ qtp34757331-34:63070 ] - [ WARN ]  No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:00:28  [ qtp34757331-36:86772 ] - [ WARN ]  No mapping found for HTTP request with URI [/a/student/detail] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:00:47  [ qtp34757331-35:106714 ] - [ WARN ]  No mapping found for HTTP request with URI [/a/student/%7Bdetail%7D] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:26:33  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 11:26:33  [ main:198 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 11:26:33 CST 2017]; root of context hierarchy
+2017-07-25 11:26:33  [ main:346 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 11:26:34  [ main:1284 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 11:26:34  [ main:1508 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1499 ms
+2017-07-25 11:26:34  [ main:1693 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 11:26:34  [ main:1707 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:26:34 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:26:34  [ main:1711 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 11:26:35  [ main:2089 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 11:26:35  [ main:2634 ] - [ INFO ]  Mapped "{[/task2/a/student/detail]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail()
+2017-07-25 11:26:35  [ main:2638 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 11:26:35  [ main:2850 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:26:34 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:26:36  [ main:3002 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:26:34 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:26:36  [ main:3251 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 11:26:36  [ main:3293 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 11:26:36  [ main:3301 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 11:26:36  [ main:3503 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1809 ms
+2017-07-25 11:27:18  [ qtp607526140-16:45761 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 11:27:21  [ qtp607526140-23:48831 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/%3Cc:url%20value=] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:28:03  [ qtp607526140-20:90840 ] - [ INFO ]  这是添加学生信息
+2017-07-25 11:29:23  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 11:29:23  [ main:188 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 11:29:23 CST 2017]; root of context hierarchy
+2017-07-25 11:29:23  [ main:328 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 11:29:24  [ main:1250 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 11:29:24  [ main:1485 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1469 ms
+2017-07-25 11:29:24  [ main:1672 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 11:29:24  [ main:1688 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:29:24 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:29:24  [ main:1703 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 11:29:25  [ main:2125 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 11:29:25  [ main:2719 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail()
+2017-07-25 11:29:25  [ main:2719 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 11:29:26  [ main:2907 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:29:24 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:29:26  [ main:3000 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 11:29:24 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 11:29:26  [ main:3254 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 11:29:26  [ main:3269 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 11:29:26  [ main:3285 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 11:29:26  [ main:3535 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1847 ms
+2017-07-25 11:29:33  [ qtp595663369-19:10448 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/detail/] in DispatcherServlet with name 'springMVC'
+2017-07-25 11:29:36  [ qtp595663369-18:13431 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/detail] in DispatcherServlet with name 'springMVC'
+2017-07-25 17:42:43  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 17:42:44  [ main:266 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 17:42:44 CST 2017]; root of context hierarchy
+2017-07-25 17:42:44  [ main:398 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 17:42:45  [ main:2002 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 17:42:47  [ main:3460 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3409 ms
+2017-07-25 17:42:47  [ main:3912 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 17:42:47  [ main:3922 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 17:42:47 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 17:42:47  [ main:3925 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 17:42:48  [ main:4349 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 17:42:48  [ main:4929 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 17:42:48  [ main:4933 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2017-07-25 17:42:48  [ main:4935 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 17:42:48  [ main:4938 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 17:42:49  [ main:5306 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 17:42:47 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 17:42:49  [ main:5453 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 17:42:47 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 17:42:49  [ main:5683 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 17:42:49  [ main:5698 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 17:42:49  [ main:5708 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 17:42:49  [ main:5983 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2070 ms
+2017-07-25 17:43:06  [ qtp33558975-23:22657 ] - [ WARN ]  No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springMVC'
+2017-07-25 17:45:53  [ qtp33558975-15:189890 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 17:45:53  [ qtp33558975-15:189899 ] - [ ERROR ]  查询出错null
+2017-07-25 17:53:55  [ main:120 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-25 17:53:55  [ main:157 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-25 17:53:55  [ main:326 ] - [ INFO ]  测试开始
+2017-07-25 17:53:55  [ main:465 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 17:53:56  [ main:967 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Tue Jul 25 17:53:56 CST 2017]; root of context hierarchy
+2017-07-25 17:53:57  [ main:2529 ] - [ INFO ]  测试查找
+
+2017-07-25 17:54:05  [ main:10605 ] - [ INFO ]  {dataSource-1} inited
+2017-07-25 17:54:06  [ main:11210 ] - [ INFO ]  输出查询结果
+Student [id = CS-1233, name = 玛尼王, study_type = 1, qq = 112233, entrydata = 2017-07-23 17:14:03, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1500801243733, update_at = 1500801244904]
+2017-07-25 17:54:06  [ main:11216 ] - [ INFO ]  测试结束
+2017-07-25 17:54:06  [ Thread-0:11220 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Tue Jul 25 17:53:56 CST 2017]; root of context hierarchy
+2017-07-25 17:54:06  [ Thread-0:11258 ] - [ INFO ]  {dataSource-1} closed
+2017-07-25 18:07:42  [ main:195 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-25 18:07:42  [ main:259 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-25 18:07:42  [ main:341 ] - [ INFO ]  测试开始
+2017-07-25 18:07:42  [ main:551 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:07:43  [ main:1175 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Tue Jul 25 18:07:43 CST 2017]; root of context hierarchy
+2017-07-25 18:07:44  [ main:2261 ] - [ INFO ]  测试查找
+
+2017-07-25 18:08:37  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:08:38  [ main:104 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:08:38 CST 2017]; root of context hierarchy
+2017-07-25 18:08:38  [ main:173 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:08:39  [ main:1309 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:08:40  [ main:2483 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2479 ms
+2017-07-25 18:08:40  [ main:2664 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:08:40  [ main:2673 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:08:40 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:08:40  [ main:2675 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:08:41  [ main:3353 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:08:41  [ main:3891 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:08:41  [ main:3895 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2017-07-25 18:08:41  [ main:3897 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:08:41  [ main:3899 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:08:42  [ main:4127 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:08:40 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:08:42  [ main:4274 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:08:40 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:08:42  [ main:4531 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:08:42  [ main:4548 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:08:42  [ main:4558 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:08:42  [ main:4821 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2157 ms
+2017-07-25 18:09:41  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:09:41  [ main:126 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:09:41 CST 2017]; root of context hierarchy
+2017-07-25 18:09:41  [ main:195 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:09:41  [ main:698 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:09:42  [ main:1266 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1259 ms
+2017-07-25 18:09:42  [ main:1383 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:09:42  [ main:1390 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:09:42 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:09:42  [ main:1392 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:09:43  [ main:1913 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:09:43  [ main:2438 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:09:43  [ main:2442 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2017-07-25 18:09:43  [ main:2444 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:09:43  [ main:2446 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:09:43  [ main:2640 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:09:42 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:09:44  [ main:3236 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:09:42 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:09:44  [ main:3391 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:09:44  [ main:3401 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:09:44  [ main:3407 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:09:44  [ main:3595 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2212 ms
+2017-07-25 18:09:51  [ qtp1792473683-14:9833 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:09:51  [ qtp1792473683-14:9847 ] - [ ERROR ]  查询出错null
+2017-07-25 18:09:57  [ qtp1792473683-15:16261 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:09:57  [ qtp1792473683-15:16265 ] - [ ERROR ]  查询出错null
+2017-07-25 18:10:00  [ qtp1792473683-20:19292 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:10:00  [ qtp1792473683-20:19298 ] - [ ERROR ]  查询出错null
+2017-07-25 18:10:25  [ qtp1792473683-17:43881 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/detail/user_id=JAVA-1111] in DispatcherServlet with name 'springMVC'
+2017-07-25 18:10:35  [ qtp1792473683-14:53869 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:10:35  [ qtp1792473683-14:53874 ] - [ ERROR ]  查询出错null
+2017-07-25 18:13:26  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:13:26  [ main:103 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:13:26 CST 2017]; root of context hierarchy
+2017-07-25 18:13:26  [ main:174 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:13:27  [ main:781 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:13:27  [ main:1317 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1311 ms
+2017-07-25 18:13:27  [ main:1471 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:13:27  [ main:1481 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:13:27 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:13:27  [ main:1484 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:13:28  [ main:1922 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:13:28  [ main:2403 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:13:28  [ main:2406 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2017-07-25 18:13:28  [ main:2407 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:13:28  [ main:2409 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:13:28  [ main:2582 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:13:27 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:13:29  [ main:2688 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:13:27 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:13:29  [ main:2914 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:13:29  [ main:2926 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:13:29  [ main:2936 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:13:29  [ main:3152 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1680 ms
+2017-07-25 18:13:39  [ qtp1605783571-15:12833 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:13:39  [ qtp1605783571-15:12846 ] - [ ERROR ]  查询出错null
+2017-07-25 18:17:46  [ qtp1605783571-14:260513 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:17:46  [ qtp1605783571-14:260518 ] - [ ERROR ]  查询出错null
+2017-07-25 18:21:02  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:21:02  [ main:218 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:21:02 CST 2017]; root of context hierarchy
+2017-07-25 18:21:02  [ main:352 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:21:03  [ main:1430 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:21:04  [ main:2492 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2480 ms
+2017-07-25 18:21:05  [ main:2687 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:21:05  [ main:2697 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:21:05 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:21:05  [ main:2701 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:21:05  [ main:3075 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:21:05  [ main:3532 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:21:05  [ main:3536 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2017-07-25 18:21:05  [ main:3537 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:21:05  [ main:3539 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:21:06  [ main:3756 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:21:05 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:21:06  [ main:3903 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:21:05 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:21:06  [ main:4153 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:21:06  [ main:4166 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:21:06  [ main:4176 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:21:06  [ main:4487 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1799 ms
+2017-07-25 18:21:10  [ qtp2048869869-17:8026 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:21:10  [ qtp2048869869-17:8034 ] - [ ERROR ]  查询出错null
+2017-07-25 18:21:14  [ qtp2048869869-15:12530 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:21:14  [ qtp2048869869-15:12536 ] - [ ERROR ]  查询出错null
+2017-07-25 18:22:21  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:22:21  [ main:89 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:22:21 CST 2017]; root of context hierarchy
+2017-07-25 18:22:21  [ main:152 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:22:22  [ main:750 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:22:22  [ main:1675 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1670 ms
+2017-07-25 18:22:23  [ main:1870 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:22:23  [ main:1878 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:22:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:22:23  [ main:1880 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:22:23  [ main:2276 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:22:24  [ main:2846 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:22:24  [ main:2850 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model,java.lang.String)
+2017-07-25 18:22:24  [ main:2851 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:22:24  [ main:2853 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:22:24  [ main:3028 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:22:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:22:24  [ main:3133 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:22:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:22:24  [ main:3303 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:22:24  [ main:3312 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:22:24  [ main:3322 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:22:24  [ main:3489 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1617 ms
+2017-07-25 18:22:40  [ qtp208350681-23:19213 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/detail] in DispatcherServlet with name 'springMVC'
+2017-07-25 18:22:52  [ qtp208350681-20:31578 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:22:52  [ qtp208350681-20:31585 ] - [ ERROR ]  查询出错null
+2017-07-25 18:23:11  [ qtp208350681-21:50529 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:23:11  [ qtp208350681-21:50533 ] - [ ERROR ]  查询出错null
+2017-07-25 18:24:45  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:24:45  [ main:195 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:24:45 CST 2017]; root of context hierarchy
+2017-07-25 18:24:46  [ main:332 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:24:47  [ main:1398 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:24:48  [ main:2577 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2566 ms
+2017-07-25 18:24:48  [ main:2764 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:24:48  [ main:2772 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:24:48 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:24:48  [ main:2775 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:24:48  [ main:3197 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:24:49  [ main:3673 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:24:49  [ main:3676 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-25 18:24:49  [ main:3677 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:24:49  [ main:3678 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:24:49  [ main:3833 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:24:48 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:24:49  [ main:3934 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:24:48 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:24:49  [ main:4129 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:24:49  [ main:4141 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:24:49  [ main:4150 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:24:50  [ main:4398 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1633 ms
+2017-07-25 18:24:55  [ qtp1026001741-25:10112 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:24:55  [ qtp1026001741-25:10120 ] - [ ERROR ]  查询出错null
+2017-07-25 18:25:02  [ qtp1026001741-20:16333 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:25:02  [ qtp1026001741-20:16338 ] - [ ERROR ]  查询出错null
+2017-07-25 18:25:08  [ qtp1026001741-15:22657 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:25:08  [ qtp1026001741-15:22664 ] - [ ERROR ]  查询出错null
+2017-07-25 18:26:34  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:26:34  [ main:204 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:26:34 CST 2017]; root of context hierarchy
+2017-07-25 18:26:35  [ main:339 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:26:36  [ main:1355 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:26:37  [ main:2480 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2469 ms
+2017-07-25 18:26:37  [ main:2709 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:26:37  [ main:2720 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:26:37 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:26:37  [ main:2723 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:26:37  [ main:3129 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:26:38  [ main:3635 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:26:38  [ main:3639 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-25 18:26:38  [ main:3641 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:26:38  [ main:3643 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:26:38  [ main:3874 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:26:37 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:26:38  [ main:4004 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:26:37 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:26:38  [ main:4195 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:26:38  [ main:4208 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:26:38  [ main:4216 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:26:39  [ main:4431 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1721 ms
+2017-07-25 18:26:50  [ qtp1900438403-24:15550 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:26:50  [ qtp1900438403-24:15553 ] - [ INFO ]  JAVA-1111
+2017-07-25 18:26:50  [ qtp1900438403-24:15559 ] - [ ERROR ]  查询出错null
+2017-07-25 18:27:46  [ qtp1900438403-16:72043 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:27:46  [ qtp1900438403-16:72044 ] - [ INFO ]  JAVA-1111
+2017-07-25 18:27:46  [ qtp1900438403-16:72048 ] - [ ERROR ]  查询出错null
+2017-07-25 18:31:20  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 18:31:21  [ main:238 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 18:31:21 CST 2017]; root of context hierarchy
+2017-07-25 18:31:21  [ main:398 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 18:31:22  [ main:1470 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:31:23  [ main:2537 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2525 ms
+2017-07-25 18:31:23  [ main:2712 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 18:31:23  [ main:2722 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:31:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:31:23  [ main:2725 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 18:31:23  [ main:3048 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 18:31:24  [ main:3465 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 18:31:24  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/detail/{user_id}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-25 18:31:24  [ main:3472 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 18:31:24  [ main:3474 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 18:31:24  [ main:3719 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:31:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:31:24  [ main:3864 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 18:31:23 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 18:31:24  [ main:4089 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 18:31:24  [ main:4104 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 18:31:24  [ main:4116 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 18:31:25  [ main:4425 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1712 ms
+2017-07-25 18:31:31  [ qtp17808347-18:10927 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:31:31  [ qtp17808347-18:10930 ] - [ INFO ]  JAVA-1111
+2017-07-25 18:31:36  [ qtp17808347-18:15549 ] - [ INFO ]  {dataSource-1} inited
+2017-07-25 18:31:36  [ qtp17808347-18:15886 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-25 18:31:38  [ qtp17808347-14:17819 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 18:31:38  [ qtp17808347-14:17821 ] - [ INFO ]  <c:url value=
+2017-07-25 18:31:38  [ qtp17808347-14:18059 ] - [ INFO ]  
+2017-07-25 19:24:12  [ qtp17808347-17:3171252 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 19:24:12  [ qtp17808347-17:3171267 ] - [ INFO ]  <c:url value=
+2017-07-25 19:24:12  [ qtp17808347-17:3171537 ] - [ INFO ]  
+2017-07-25 19:24:23  [ qtp17808347-39:3182677 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 19:24:23  [ qtp17808347-39:3182678 ] - [ INFO ]  JAVA-1111
+2017-07-25 19:24:23  [ qtp17808347-39:3182925 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-25 19:24:23  [ qtp17808347-42:3183006 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 19:24:23  [ qtp17808347-42:3183007 ] - [ INFO ]  <c:url value=
+2017-07-25 19:24:24  [ qtp17808347-42:3183224 ] - [ INFO ]  
+2017-07-25 19:24:31  [ qtp17808347-43:3190823 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 19:24:31  [ qtp17808347-43:3190824 ] - [ INFO ]  JAVA-1111
+2017-07-25 19:24:31  [ qtp17808347-43:3191056 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-25 19:24:31  [ qtp17808347-18:3191111 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 19:24:31  [ qtp17808347-18:3191112 ] - [ INFO ]  <c:url value=
+2017-07-25 19:24:32  [ qtp17808347-18:3191348 ] - [ INFO ]  
+2017-07-25 22:55:17  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-25 22:55:17  [ main:177 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Jul 25 22:55:17 CST 2017]; root of context hierarchy
+2017-07-25 22:55:17  [ main:283 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 22:55:19  [ main:1346 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 22:55:19  [ main:2200 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2189 ms
+2017-07-25 22:55:20  [ main:2348 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-25 22:55:20  [ main:2354 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 22:55:20 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 22:55:20  [ main:2356 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-25 22:55:20  [ main:2608 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 22:55:20  [ main:2974 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{user_id}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete()
+2017-07-25 22:55:20  [ main:2976 ] - [ INFO ]  Mapped "{[/task2/a/student/detail],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+2017-07-25 22:55:20  [ main:2977 ] - [ INFO ]  Mapped "{[/task2/a/student/updata/{user_id}],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.updata()
+2017-07-25 22:55:20  [ main:2978 ] - [ INFO ]  Mapped "{[/task2/a/student/intsert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.intsert()
+2017-07-25 22:55:20  [ main:3110 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 22:55:20 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 22:55:20  [ main:3224 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Jul 25 22:55:20 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 22:55:21  [ main:3448 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-25 22:55:21  [ main:3465 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-25 22:55:21  [ main:3475 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-25 22:55:21  [ main:3718 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1369 ms
+2017-07-25 22:55:23  [ qtp1549840544-16:5710 ] - [ INFO ]  这是学生详细信息的查询
+2017-07-25 22:55:23  [ qtp1549840544-16:5721 ] - [ INFO ]  JAVA-1111
+2017-07-25 22:55:30  [ qtp1549840544-16:12704 ] - [ INFO ]  {dataSource-1} inited
+2017-07-25 22:55:30  [ qtp1549840544-16:13242 ] - [ INFO ]  Student [id = JAVA-1111, name = 王伟, study_type = 1, qq = 12345667, entrydata = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, know_from = 知乎, create_at = 1111122222, update_at = 333322211]
+2017-07-25 22:55:32  [ qtp1549840544-14:15102 ] - [ WARN ]  No mapping found for HTTP request with URI [/task2/a/student/%3Cc:url%20value=] in DispatcherServlet with name 'springMVC'
