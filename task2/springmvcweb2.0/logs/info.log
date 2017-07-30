@@ -1,0 +1,349 @@
+2017-07-30 12:14:02  [ main:0 ] - [ INFO ]  测试开始
+2017-07-30 12:14:02  [ main:12 ] - [ INFO ]  删除用户信息
+2017-07-30 12:14:02  [ main:16 ] - [ ERROR ]  null
+2017-07-30 12:14:02  [ main:19 ] - [ INFO ]  查找用户信息
+2017-07-30 12:14:02  [ main:20 ] - [ INFO ]  JAVA-1111
+2017-07-30 12:14:02  [ main:21 ] - [ ERROR ]  查询失败null
+2017-07-30 12:14:02  [ main:23 ] - [ INFO ]  添加用户信息
+2017-07-30 12:14:02  [ main:23 ] - [ INFO ]  studyStudent [userId = PM-8811, name = 林毛之家, studtType = 4, qq = 77889900, entryData = null, graduated = 河北大学
+		 url = www.10086.cn, wish = 啊哈, knowFrom = 百度, createAt = 0, updateAt = 0]
+2017-07-30 12:14:02  [ main:26 ] - [ ERROR ]  添加出错null
+2017-07-30 12:14:02  [ main:27 ] - [ INFO ]  修改用户信息
+2017-07-30 12:14:02  [ main:28 ] - [ INFO ]  studyStudent [userId = PM-8811, name = 王坤, studtType = 0, qq = 0, entryData = null, graduated = null
+		 url = null, wish = null, knowFrom = null, createAt = 0, updateAt = 0]
+2017-07-30 12:14:02  [ main:29 ] - [ ERROR ]  修改出错null
+2017-07-30 12:14:02  [ main:30 ] - [ INFO ]  查询全部学生信息
+2017-07-30 12:14:02  [ main:31 ] - [ ERROR ]  查询错误null
+2017-07-30 12:14:02  [ main:31 ] - [ INFO ]  测试结束
+2017-07-30 12:14:49  [ main:570 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 12:14:50  [ main:685 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ffc5af1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5e5792a0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@26653222, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3532ec19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68c4039c]
+2017-07-30 12:14:50  [ main:748 ] - [ INFO ]  测试开始
+2017-07-30 12:14:50  [ main:1309 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 12:14:52  [ main:2940 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@52a86356: startup date [Sun Jul 30 12:14:52 CST 2017]; root of context hierarchy
+2017-07-30 12:14:55  [ main:6244 ] - [ INFO ]  测试查询
+
+2017-07-30 12:15:01  [ main:12484 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 12:15:02  [ main:13187 ] - [ INFO ]  学生信息： 
+Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1122233422, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112]
+2017-07-30 12:15:02  [ main:13187 ] - [ INFO ]  测试结束
+2017-07-30 12:15:02  [ Thread-0:13218 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@52a86356: startup date [Sun Jul 30 12:14:52 CST 2017]; root of context hierarchy
+2017-07-30 12:15:02  [ Thread-0:13234 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 12:15:19  [ main:0 ] - [ INFO ]  测试开始
+2017-07-30 12:15:19  [ main:16 ] - [ INFO ]  查找用户信息
+2017-07-30 12:15:19  [ main:16 ] - [ INFO ]  JAVA-1111
+2017-07-30 12:15:19  [ main:16 ] - [ ERROR ]  查询失败null
+2017-07-30 12:15:19  [ main:16 ] - [ INFO ]  测试结束
+2017-07-30 12:28:56  [ main:0 ] - [ INFO ]  测试开始
+2017-07-30 12:28:56  [ main:22 ] - [ INFO ]  查找用户信息
+2017-07-30 12:28:56  [ main:24 ] - [ INFO ]  JAVA-1111
+2017-07-30 12:28:56  [ main:28 ] - [ ERROR ]  查询失败null
+2017-07-30 12:28:56  [ main:31 ] - [ INFO ]  测试结束
+2017-07-30 12:30:06  [ main:142 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 12:30:06  [ main:193 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 12:30:06  [ main:228 ] - [ INFO ]  测试开始
+2017-07-30 12:30:06  [ main:361 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 12:30:06  [ main:936 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 12:30:06 CST 2017]; root of context hierarchy
+2017-07-30 12:30:08  [ main:2040 ] - [ INFO ]  查找用户信息
+2017-07-30 12:30:08  [ main:2040 ] - [ INFO ]  JAVA-1111
+2017-07-30 12:30:12  [ main:6965 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 12:30:13  [ main:7490 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1122334455, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 12:30:13  [ main:7490 ] - [ INFO ]  测试结束
+2017-07-30 12:30:13  [ Thread-0:7505 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 12:30:06 CST 2017]; root of context hierarchy
+2017-07-30 12:30:13  [ Thread-0:7505 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 12:30:23  [ main:176 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 12:30:23  [ main:228 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f3ddb1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8bd1b6a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18be83e4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cb5822, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b9e13df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b98378d]
+2017-07-30 12:30:23  [ main:280 ] - [ INFO ]  测试开始
+2017-07-30 12:30:23  [ main:427 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 12:30:23  [ main:821 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Sun Jul 30 12:30:23 CST 2017]; root of context hierarchy
+2017-07-30 12:30:24  [ main:1954 ] - [ INFO ]  删除用户信息
+2017-07-30 12:30:29  [ main:6989 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 12:30:30  [ main:7543 ] - [ INFO ]  返回影响行数0
+2017-07-30 12:30:30  [ main:7559 ] - [ INFO ]  查找用户信息
+2017-07-30 12:30:30  [ main:7559 ] - [ INFO ]  JAVA-1111
+2017-07-30 12:30:30  [ main:7891 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1122334455, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 12:30:30  [ main:7891 ] - [ INFO ]  添加用户信息
+2017-07-30 12:30:30  [ main:7906 ] - [ INFO ]  studyStudent [userId = PM-8811, name = 林毛之家, studtType = 4, qq = 77889900, entryData = null, graduated = 河北大学
+		 url = www.10086.cn, wish = 啊哈, knowFrom = 百度, createAt = 0, updateAt = 0]
+2017-07-30 12:30:31  [ main:8260 ] - [ INFO ]  添加信息的行数1
+2017-07-30 12:30:31  [ main:8276 ] - [ INFO ]  修改用户信息
+2017-07-30 12:30:31  [ main:8276 ] - [ INFO ]  studyStudent [userId = PM-8811, name = 王坤, studtType = 0, qq = 0, entryData = null, graduated = null
+		 url = null, wish = null, knowFrom = null, createAt = 0, updateAt = 0]
+2017-07-30 12:30:31  [ main:8915 ] - [ INFO ]  返回修改行数1
+2017-07-30 12:30:31  [ main:8915 ] - [ INFO ]  查询全部学生信息
+2017-07-30 12:30:32  [ main:9178 ] - [ INFO ]  studylist ： [Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1122334455, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565], Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1122233422, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112], Student [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = 1501319181553, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 1501319181553, updateAt = 1501319181553], Student [userId = PM-8811, name = 王坤, studtType = 4, qq = 77889900, entryData = 1501389030889, graduated = 河北大学
+		 url = www.10086.cn, wish = 啊哈, knowFrom = 百度, createAt = 1501389030889, updateAt = 1501389031511]]
+2017-07-30 12:30:32  [ main:9178 ] - [ INFO ]  返回用户数量4
+2017-07-30 12:30:32  [ main:9178 ] - [ INFO ]  测试结束
+2017-07-30 12:30:32  [ Thread-0:9194 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Sun Jul 30 12:30:23 CST 2017]; root of context hierarchy
+2017-07-30 12:30:32  [ Thread-0:9214 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 12:39:54  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-30 12:39:54  [ main:243 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Jul 30 12:39:54 CST 2017]; root of context hierarchy
+2017-07-30 12:39:54  [ main:376 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 12:39:55  [ main:1383 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 12:39:56  [ main:2254 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2238 ms
+2017-07-30 12:39:56  [ main:2550 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-30 12:39:56  [ main:2550 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:39:56 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:39:56  [ main:2550 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-30 12:39:57  [ main:2820 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:39:57  [ main:2820 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:39:57  [ main:2820 ] - [ INFO ]  Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:39:57  [ main:2938 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 12:39:57  [ main:3336 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-07-30 12:39:57  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/all],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.all(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+2017-07-30 12:39:57  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/update],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.update(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-07-30 12:39:57  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{userId}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 12:39:57  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/insert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.insert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,com.tasktwo.model.Student)
+2017-07-30 12:39:57  [ main:3469 ] - [ INFO ]  Mapped "{[/task2/a/student/select/{userId}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 12:39:58  [ main:4025 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:39:56 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:39:58  [ main:4179 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:39:56 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:39:58  [ main:4318 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-30 12:39:58  [ main:4318 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-30 12:39:58  [ main:4334 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-30 12:39:59  [ main:4634 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 2084 ms
+2017-07-30 12:40:50  [ qtp479160976-23:55606 ] - [ INFO ]  添加用户信息
+2017-07-30 12:40:50  [ qtp479160976-23:55607 ] - [ INFO ]  studyStudent [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = null, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 0, updateAt = 0]
+2017-07-30 12:40:54  [ qtp479160976-23:60503 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 12:40:55  [ qtp479160976-23:61046 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-30 12:40:55  [ qtp479160976-23:61195 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-30 12:40:55  [ qtp479160976-23:61359 ] - [ ERROR ]  添加出错
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'JAVA-4433' for key 'user_id'
+### The error may involve com.tasktwo.dao.StudentMapper.studyInsert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO student (user_id,name,study_type,qq,entry_data,graduated,url,wish,know_from,create_at,update_at)         VALUES (?,?,?,?,?,?,?,?,?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'JAVA-4433' for key 'user_id'
+; SQL []; Duplicate entry 'JAVA-4433' for key 'user_id'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'JAVA-4433' for key 'user_id'
+2017-07-30 12:46:08  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-30 12:46:08  [ main:116 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Jul 30 12:46:08 CST 2017]; root of context hierarchy
+2017-07-30 12:46:08  [ main:193 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 12:46:08  [ main:730 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 12:46:09  [ main:1346 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1328 ms
+2017-07-30 12:46:09  [ main:1460 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-30 12:46:09  [ main:1467 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:46:09 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:46:09  [ main:1469 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-30 12:46:09  [ main:1678 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:46:09  [ main:1680 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:46:09  [ main:1680 ] - [ INFO ]  Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 12:46:09  [ main:1751 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 12:46:10  [ main:1986 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-07-30 12:46:10  [ main:2109 ] - [ INFO ]  Mapped "{[/task2/a/student/all],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.all(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+2017-07-30 12:46:10  [ main:2111 ] - [ INFO ]  Mapped "{[/task2/a/student/update],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.update(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-07-30 12:46:10  [ main:2112 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{userId}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 12:46:10  [ main:2114 ] - [ INFO ]  Mapped "{[/task2/a/student/insert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.insert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,com.tasktwo.model.Student)
+2017-07-30 12:46:10  [ main:2115 ] - [ INFO ]  Mapped "{[/task2/a/student/select/{userId}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 12:46:10  [ main:2402 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:46:09 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:46:10  [ main:2529 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 12:46:09 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 12:46:10  [ main:2677 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-30 12:46:10  [ main:2685 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-30 12:46:10  [ main:2693 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-30 12:46:11  [ main:3064 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1603 ms
+2017-07-30 12:46:13  [ qtp102185114-14:5143 ] - [ INFO ]  添加用户信息
+2017-07-30 12:46:21  [ qtp102185114-14:13440 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 12:46:21  [ qtp102185114-14:13909 ] - [ INFO ]  study ：Student [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = 1501389973198, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 1501389973198, updateAt = 1501389973198]
+2017-07-30 12:46:21  [ qtp102185114-14:13909 ] - [ INFO ]  添加信息的行数1
+2017-07-30 12:47:45  [ qtp102185114-23:97054 ] - [ INFO ]  修改用户信息
+2017-07-30 12:47:45  [ qtp102185114-23:97055 ] - [ INFO ]  name  :  威威
+2017-07-30 12:47:45  [ qtp102185114-23:97057 ] - [ INFO ]  userId  :  JAVA-4433
+2017-07-30 12:47:46  [ qtp102185114-23:98003 ] - [ INFO ]  返回修改行数1
+2017-07-30 12:47:57  [ qtp102185114-18:109875 ] - [ INFO ]  查找当前的用户信息
+2017-07-30 12:47:57  [ qtp102185114-18:109876 ] - [ INFO ]  CSS-1111
+2017-07-30 12:47:58  [ qtp102185114-18:110130 ] - [ INFO ]  Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1122233422, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112]
+2017-07-30 12:48:04  [ qtp102185114-21:116097 ] - [ INFO ]  删除用户信息
+2017-07-30 12:48:04  [ qtp102185114-21:116098 ] - [ INFO ]  userId  :  JAVA-4433
+2017-07-30 12:48:04  [ qtp102185114-21:116480 ] - [ INFO ]  返回影响行数1
+2017-07-30 15:27:08  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-30 15:27:08  [ main:177 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Jul 30 15:27:08 CST 2017]; root of context hierarchy
+2017-07-30 15:27:08  [ main:302 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 15:27:09  [ main:996 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 15:27:10  [ main:2225 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2215 ms
+2017-07-30 15:27:11  [ main:2449 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-30 15:27:11  [ main:2459 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:27:11 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:27:11  [ main:2462 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-30 15:27:11  [ main:2768 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:27:11  [ main:2771 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:27:11  [ main:2773 ] - [ INFO ]  Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:27:11  [ main:2878 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 15:27:11  [ main:3230 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-07-30 15:27:11  [ main:3411 ] - [ INFO ]  Mapped "{[/task2/a/student/all],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.all(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+2017-07-30 15:27:11  [ main:3411 ] - [ INFO ]  Mapped "{[/task2/a/student/update],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.update(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-07-30 15:27:11  [ main:3411 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{userId}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 15:27:11  [ main:3427 ] - [ INFO ]  Mapped "{[/task2/a/student/insert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.insert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,com.tasktwo.model.Student)
+2017-07-30 15:27:11  [ main:3427 ] - [ INFO ]  Mapped "{[/task2/a/student/select/{userId}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 15:27:12  [ main:3821 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:27:11 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:27:12  [ main:3945 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:27:11 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:27:12  [ main:4070 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-30 15:27:12  [ main:4070 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-30 15:27:12  [ main:4086 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-30 15:27:12  [ main:4350 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1900 ms
+2017-07-30 15:27:15  [ qtp435626542-23:7322 ] - [ INFO ]  添加用户信息
+2017-07-30 15:27:15  [ qtp435626542-23:7322 ] - [ INFO ]  study ：Student [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = null, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 0, updateAt = 0]
+2017-07-30 15:27:24  [ qtp435626542-23:15946 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 15:27:25  [ qtp435626542-23:16523 ] - [ INFO ]  查询单个学员数据库响应时间： -9186
+2017-07-30 15:27:25  [ qtp435626542-23:17194 ] - [ INFO ]  插入学员数据库响应时间： -671
+2017-07-30 15:27:25  [ qtp435626542-23:17194 ] - [ INFO ]  添加信息的行数1
+2017-07-30 15:27:57  [ qtp435626542-17:48517 ] - [ INFO ]  添加用户信息
+2017-07-30 15:27:57  [ qtp435626542-17:48519 ] - [ INFO ]  study ：Student [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = null, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 0, updateAt = 0]
+2017-07-30 15:27:57  [ qtp435626542-17:48977 ] - [ INFO ]  查询单个学员数据库响应时间： -457
+2017-07-30 15:27:57  [ qtp435626542-17:48993 ] - [ INFO ]  添加信息的行数-1
+2017-07-30 15:27:57  [ qtp435626542-17:48994 ] - [ INFO ]  用户信息已经存在
+2017-07-30 15:55:43  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2017-07-30 15:55:43  [ main:133 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Jul 30 15:55:43 CST 2017]; root of context hierarchy
+2017-07-30 15:55:43  [ main:200 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 15:55:43  [ main:567 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 15:55:44  [ main:886 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 15:55:44  [ main:1540 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1540 ms
+2017-07-30 15:55:44  [ main:1661 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization started
+2017-07-30 15:55:44  [ main:1661 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:55:44 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:55:44  [ main:1661 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2017-07-30 15:55:45  [ main:1834 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:55:45  [ main:1837 ] - [ INFO ]  Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:55:45  [ main:1839 ] - [ INFO ]  Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-07-30 15:55:45  [ main:1924 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-30 15:55:45  [ main:2209 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-07-30 15:55:45  [ main:2341 ] - [ INFO ]  Mapped "{[/task2/a/student/all],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.all(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)
+2017-07-30 15:55:45  [ main:2343 ] - [ INFO ]  Mapped "{[/task2/a/student/update],methods=[PUT]}" onto public java.lang.String com.tasktwo.controller.HomeController.update(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String,java.lang.String)
+2017-07-30 15:55:45  [ main:2345 ] - [ INFO ]  Mapped "{[/task2/a/student/delete/{userId}],methods=[DELETE]}" onto public java.lang.String com.tasktwo.controller.HomeController.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 15:55:45  [ main:2347 ] - [ INFO ]  Mapped "{[/task2/a/student/insert],methods=[POST]}" onto public java.lang.String com.tasktwo.controller.HomeController.insert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,com.tasktwo.model.Student)
+2017-07-30 15:55:45  [ main:2348 ] - [ INFO ]  Mapped "{[/task2/a/student/select/{userId}],methods=[GET]}" onto public java.lang.String com.tasktwo.controller.HomeController.detail(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,java.lang.String)
+2017-07-30 15:55:45  [ main:2609 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:55:44 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:55:45  [ main:2677 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Jul 30 15:55:44 CST 2017]; parent: Root WebApplicationContext
+2017-07-30 15:55:46  [ main:2763 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-07-30 15:55:46  [ main:2767 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-07-30 15:55:46  [ main:2770 ] - [ INFO ]  Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-07-30 15:55:46  [ main:2909 ] - [ INFO ]  FrameworkServlet 'springMVC': initialization completed in 1248 ms
+2017-07-30 15:55:56  [ qtp1708490318-24:12699 ] - [ INFO ]  查找当前的用户信息
+2017-07-30 15:55:56  [ qtp1708490318-24:12702 ] - [ INFO ]  userId CSS-1111
+2017-07-30 15:56:07  [ qtp1708490318-24:24248 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 15:56:08  [ qtp1708490318-24:24831 ] - [ INFO ]  查询单个学员数据库响应时间： -12128
+2017-07-30 15:56:08  [ qtp1708490318-24:24831 ] - [ INFO ]  学生信息： Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1122233422, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112]
+2017-07-30 15:57:54  [ main:223 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 15:57:54  [ main:288 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 15:57:54  [ main:345 ] - [ INFO ]  测试开始
+2017-07-30 15:57:55  [ main:516 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-30 15:57:55  [ main:1124 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 15:57:55  [ main:1213 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 15:57:55 CST 2017]; root of context hierarchy
+2017-07-30 15:57:57  [ main:2483 ] - [ INFO ]  查找用户信息
+2017-07-30 15:57:57  [ main:2484 ] - [ INFO ]  JAVA-1111
+2017-07-30 15:58:05  [ main:10501 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 15:58:05  [ main:11171 ] - [ INFO ]  查询单个学员数据库响应时间： -8686
+2017-07-30 15:58:05  [ main:11171 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1122334455, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 15:58:05  [ main:11186 ] - [ INFO ]  测试结束
+2017-07-30 15:58:05  [ Thread-0:11186 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 15:57:55 CST 2017]; root of context hierarchy
+2017-07-30 15:58:05  [ Thread-0:11202 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 16:16:20  [ main:102 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:16:20  [ main:134 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 16:16:20  [ main:165 ] - [ INFO ]  测试开始
+2017-07-30 16:16:21  [ main:265 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:16:21  [ main:635 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:16:21  [ main:682 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:16:21 CST 2017]; root of context hierarchy
+2017-07-30 16:16:22  [ main:1865 ] - [ INFO ]  查找用户信息
+2017-07-30 16:16:22  [ main:1866 ] - [ INFO ]  JAVA-1111
+2017-07-30 16:16:30  [ main:9782 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 16:16:31  [ main:10468 ] - [ INFO ]  查询单个学员数据库响应时间： -8601
+2017-07-30 16:16:31  [ main:10468 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1122334455, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 16:16:31  [ main:10468 ] - [ INFO ]  测试结束
+2017-07-30 16:16:31  [ Thread-0:10468 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:16:21 CST 2017]; root of context hierarchy
+2017-07-30 16:16:31  [ Thread-0:10484 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 16:49:38  [ main:154 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:49:38  [ main:208 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f3ddb1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@8bd1b6a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18be83e4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cb5822, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b9e13df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b98378d]
+2017-07-30 16:49:38  [ main:254 ] - [ INFO ]  测试开始
+2017-07-30 16:49:38  [ main:424 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:49:38  [ main:856 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:49:38  [ main:933 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Sun Jul 30 16:49:38 CST 2017]; root of context hierarchy
+2017-07-30 16:49:39  [ main:2074 ] - [ INFO ]  删除用户信息
+2017-07-30 16:49:48  [ main:10576 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 16:49:49  [ main:11483 ] - [ INFO ]  删除学员数据库响应时间： -9408
+2017-07-30 16:49:49  [ main:11485 ] - [ INFO ]  返回影响行数1
+2017-07-30 16:49:49  [ main:11497 ] - [ INFO ]  查找用户信息
+2017-07-30 16:49:49  [ main:11497 ] - [ INFO ]  JAVA-1111
+2017-07-30 16:49:49  [ main:12059 ] - [ INFO ]  查询单个学员数据库响应时间： -561
+2017-07-30 16:49:49  [ main:12059 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 16:49:49  [ main:12059 ] - [ INFO ]  添加用户信息
+2017-07-30 16:49:49  [ main:12084 ] - [ ERROR ]  添加出错null
+2017-07-30 16:49:50  [ main:12113 ] - [ INFO ]  修改用户信息
+2017-07-30 16:49:50  [ main:12117 ] - [ ERROR ]  修改出错null
+2017-07-30 16:49:50  [ main:12126 ] - [ INFO ]  查询全部学生信息
+2017-07-30 16:49:50  [ main:12582 ] - [ INFO ]  查询所有学员数据库响应时间： -455
+2017-07-30 16:49:50  [ main:12583 ] - [ INFO ]  studylist ： [Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565], Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1970-01-14 07:43:53, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112], Student [userId = JAVA-4433, name = 123, studtType = 1, qq = 123456, entryData = 2017-07-30 15:27:25, graduated = 郑州大学
+		 url = www.xadsdsa.com, wish = 中学生, knowFrom = 知乎, createAt = 1501399645081, updateAt = 1501399645081]]
+2017-07-30 16:49:50  [ main:12584 ] - [ INFO ]  返回用户数量3
+2017-07-30 16:49:50  [ main:12586 ] - [ INFO ]  测试结束
+2017-07-30 16:49:50  [ Thread-0:12594 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Sun Jul 30 16:49:38 CST 2017]; root of context hierarchy
+2017-07-30 16:49:50  [ Thread-0:12611 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 16:50:17  [ main:132 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:50:17  [ main:185 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18be83e4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cb5822, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b9e13df, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b98378d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@475530b9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d057a39]
+2017-07-30 16:50:17  [ main:226 ] - [ INFO ]  测试开始
+2017-07-30 16:50:17  [ main:332 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:50:17  [ main:752 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:50:17  [ main:801 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@6e1ec318: startup date [Sun Jul 30 16:50:17 CST 2017]; root of context hierarchy
+2017-07-30 16:50:19  [ main:2013 ] - [ INFO ]  测试删除
+2017-07-30 16:50:27  [ main:10508 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 16:50:28  [ main:11379 ] - [ INFO ]  删除行数0
+2017-07-30 16:50:28  [ main:11392 ] - [ INFO ]  测试添加
+2017-07-30 16:50:29  [ main:12075 ] - [ INFO ]  测试查询
+
+2017-07-30 16:50:29  [ main:12608 ] - [ INFO ]  学生信息： 
+Student [userId = CSS-1111, name = 123, studtType = 2, qq = 222333445, entryData = 1970-01-14 07:43:53, graduated = 轻工业大学
+		 url = www.10086.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501319624112]
+2017-07-30 16:50:29  [ main:12623 ] - [ INFO ]  测试修改
+2017-07-30 16:50:30  [ main:13345 ] - [ INFO ]  返回行数1
+2017-07-30 16:50:30  [ main:13345 ] - [ INFO ]  测试结束
+2017-07-30 16:50:30  [ Thread-0:13361 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@6e1ec318: startup date [Sun Jul 30 16:50:17 CST 2017]; root of context hierarchy
+2017-07-30 16:50:30  [ Thread-0:13377 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 16:51:22  [ main:116 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:51:22  [ main:153 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 16:51:22  [ main:185 ] - [ INFO ]  测试开始
+2017-07-30 16:51:22  [ main:316 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:51:22  [ main:716 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:51:22  [ main:770 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:51:22 CST 2017]; root of context hierarchy
+2017-07-30 16:51:23  [ main:1994 ] - [ INFO ]  查找用户信息
+2017-07-30 16:51:23  [ main:1995 ] - [ INFO ]  JAVA-1111
+2017-07-30 16:51:32  [ main:10112 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 16:51:32  [ main:10760 ] - [ INFO ]  查询单个学员数据库响应时间： -8764
+2017-07-30 16:51:32  [ main:10760 ] - [ INFO ]  Student [userId = JAVA-1111, name = 11, studtType = 1, qq = 12345667, entryData = 1970-01-14 07:45:34, graduated = 郑州大学
+		 url = www.baidu.com, wish = 学习吧，少年, knowFrom = 知乎, createAt = 1111122222, updateAt = 1501166596565]
+2017-07-30 16:51:32  [ main:10775 ] - [ INFO ]  测试结束
+2017-07-30 16:51:32  [ Thread-0:10775 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:51:22 CST 2017]; root of context hierarchy
+2017-07-30 16:51:32  [ Thread-0:10791 ] - [ INFO ]  {dataSource-1} closed
+2017-07-30 16:52:03  [ main:115 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:52:03  [ main:162 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 16:52:03  [ main:200 ] - [ INFO ]  测试开始
+2017-07-30 16:52:03  [ main:331 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:52:03  [ main:747 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:52:03  [ main:818 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:52:03 CST 2017]; root of context hierarchy
+2017-07-30 16:52:05  [ main:1939 ] - [ INFO ]  添加用户信息
+2017-07-30 16:52:05  [ main:1943 ] - [ ERROR ]  添加出错null
+2017-07-30 16:52:05  [ main:1949 ] - [ INFO ]  测试结束
+2017-07-30 16:52:05  [ Thread-0:1952 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:52:03 CST 2017]; root of context hierarchy
+2017-07-30 16:53:25  [ main:170 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-30 16:53:25  [ main:220 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b275dab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61832929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29774679, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ffc5af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5792a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26653222]
+2017-07-30 16:53:25  [ main:270 ] - [ INFO ]  测试开始
+2017-07-30 16:53:25  [ main:417 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2017-07-30 16:53:26  [ main:956 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-datasource-master.xml]
+2017-07-30 16:53:26  [ main:1103 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:53:26 CST 2017]; root of context hierarchy
+2017-07-30 16:53:27  [ main:2278 ] - [ INFO ]  添加用户信息
+2017-07-30 16:53:27  [ main:2279 ] - [ INFO ]  studyStudent [userId = PM-8811, name = 林毛之家, studtType = 4, qq = 77889900, entryData = null, graduated = 河北大学
+		 url = www.10086.cn, wish = 啊哈, knowFrom = 百度, createAt = 0, updateAt = 0]
+2017-07-30 16:53:35  [ main:9841 ] - [ INFO ]  {dataSource-1} inited
+2017-07-30 16:53:35  [ main:10464 ] - [ INFO ]  查询单个学员数据库响应时间： -8185
+2017-07-30 16:53:36  [ main:11111 ] - [ INFO ]  插入学员数据库响应时间： -647
+2017-07-30 16:53:36  [ main:11111 ] - [ INFO ]  添加信息的行数1
+2017-07-30 16:53:36  [ main:11111 ] - [ INFO ]  测试结束
+2017-07-30 16:53:36  [ Thread-0:11127 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@66480dd7: startup date [Sun Jul 30 16:53:26 CST 2017]; root of context hierarchy
+2017-07-30 16:53:36  [ Thread-0:11143 ] - [ INFO ]  {dataSource-1} closed

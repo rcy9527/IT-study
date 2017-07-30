@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 全局setting配置,根据需要添加 -->
+
+<!-- 配置别名 -->
+<!--  <typeAliases>
+	批量扫描别名
+	<package name="com.jnshu.dreamguy.taskfive.po"/>
+</typeAliases> -->
+<typeAliases>
+	<!-- 批量扫描别名 -->
+	<!-- <typeAlias alias="student" type="com.jnshu.dreamguy.taskfive.po.Student"/> -->
+	<typeAlias alias="Student" type="com.tasktwo.model.Student"/>
+</typeAliases>
+
+</configuration>
