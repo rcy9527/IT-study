@@ -19,7 +19,7 @@ import java.util.List;
 //标记这是一个控制器
 @Controller
 //所有的程序的第一接口
-@RequestMapping("/task2")
+@RequestMapping("/task3")
 public class HomeController {
     private static Logger loggerController = Logger.getLogger(HomeController.class);
 
@@ -29,7 +29,7 @@ public class HomeController {
 
     /*
      * 对某个指定用户查询
-     * 链接为http://localhost:8081/task2/a/student/select/具体数据
+     * 链接为http://localhost:8081/task3/a/student/select/具体数据
      */
     @RequestMapping(value="/a/student/select/{userId}",method = RequestMethod.GET)
     public String detail(HttpServletRequest request, HttpServletResponse response, Model model, @PathVariable String userId) {
@@ -57,7 +57,7 @@ public class HomeController {
 
     /*
      * 添加用户信息
-     * 链接为http://localhost:8081/task2/a/student/insert
+     * 链接为http://localhost:8081/task3/a/student/insert
      * 格式为application/json
      */
     @RequestMapping(value = "/a/student/insert",method = RequestMethod.POST)
@@ -88,7 +88,7 @@ public class HomeController {
 
     /*
      * 对用户名字进行修改，
-     * http://localhost:8081/task2/a/student/update
+     * http://localhost:8081/task3/a/student/update
      * 格式为application/x-www-form-urlencoded
      */
 
@@ -127,7 +127,7 @@ public class HomeController {
 
     /*
      * 删除用户信息
-     * http://localhost:8081/task2/a/student/delete/JAVA-4433
+     * http://localhost:8081/task3/a/student/delete/JAVA-4433
      */
     @RequestMapping(value = "/a/student/delete/{userId}",method = RequestMethod.DELETE)
     public String delete(HttpServletRequest request, HttpServletResponse response,Model model,@PathVariable("userId") String userId){
@@ -154,7 +154,7 @@ public class HomeController {
 
     /*
      * 查询表中所有用户信息
-     * http://localhost:8081/task2/a/student/all
+     * http://localhost:8081/task3/a/student/all
      */
     @RequestMapping(value = "/a/student/all",method = RequestMethod.GET)
     public String all(HttpServletRequest request, HttpServletResponse response,Model model){
