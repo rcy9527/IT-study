@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="teacher" class="study.small.Teacher">
+        <property name="name" value="老师"></property>
+        <property name="clz" value="12"></property>
+    </bean>
+
+    <bean id="student1" class="study.small.Student">
+        <property name="name" value="王尼玛"></property>
+        <property name="age" value="2233"></property>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+</beans>
